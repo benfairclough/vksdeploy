@@ -25,7 +25,7 @@ spec:
   #specify the topology for the cluster
   topology:
     #name of the ClusterClass object to derive the topology
-    class: tanzukubernetescluster
+    class: builtin-generic-v3.3.0
     #kubernetes version of the cluster; format is TKR NAME
     version: v1.33.3---vmware.1-fips-vkr.1
     #describe the cluster control plane
