@@ -51,7 +51,7 @@ spec:
         value: best-effort-small
       #persistent storage class for cluster nodes
       - name: storageClass
-        value: home-mgmt-cl01-optimal-datastore-default-policy-raid5
+        value: "home-mgmt-cl01-optimal-datastore-default-policy-raid5"
       # default storageclass for control plane and worker node pools
       - name: defaultStorageClass
-        value: home-mgmt-cl01-optimal-datastore-default-policy-raid5
+        value: "home-mgmt-cl01-optimal-datastore-default-policy-raid5"
