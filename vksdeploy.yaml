@@ -5,7 +5,7 @@ metadata:
   #user-defined name of the cluster; string
   name: vksclu1
   #kubernetes namespace for the cluster; string
-  namespace: home
+  namespace: vkshome
 #define the desired state of cluster
 spec:
   #specify the cluster network; required, there is no default
